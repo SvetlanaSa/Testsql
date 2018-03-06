@@ -23,4 +23,4 @@ drop proc somelen
 declare @loutplen int, @msg1 nvarchar(40), @thereturn int
 exec @thereturn=somelen @num=2, @str='apple', @lenstr=@loutplen output, @msg=@msg1 output
 
---select @loutplen as len1,@msg1 as msg1, @thereturn as answer
+select @loutplen as len1,@msg1 as msg1, @thereturn as answer
